@@ -1,0 +1,29 @@
+{
+  "name": "cordova-hide-keyboard-shortcuts",
+  "version": "0.0.1",
+  "description": "Cordova Hide Keyboard Shorcuts Plugin",
+  "cordova": {
+    "id": "cordova-hide-keyboard-shortcuts",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/americademy/cordova-hide-keyboard-shortcuts.git"
+  },
+  "keywords": [
+    "cordova",
+    "keyboard",
+    "shortcuts",
+    "assistant",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Americademy, Inc",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/americademy/cordova-hide-keyboard-shortcuts/issues"
+  },
+  "homepage": "https://github.com/americademy/cordova-hide-keyboard-shortcuts#readme"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-hide-keyboard-shortcuts" version="0.0.1">
+    <name>Hide Keyboard Shortcuts</name>
+    <description>Cordova Hide Keyboard Shorcuts Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,keyboard,shortcuts,assistant</keywords>
+    <repo>https://github.com/americademy/cordova-hide-keyboard-shortcuts</repo>
+    <issue>https://github.com/americademy/cordova-hide-keyboard-shortcuts/issues</issue>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HideKeyboardShortcuts">
+                <param name="ios-package" value="HideKeyboardShortcuts"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/HideKeyboardShortcuts.h" />
+        <source-file src="src/ios/HideKeyboardShortcuts.m" />
+    </platform>
+</plugin>
